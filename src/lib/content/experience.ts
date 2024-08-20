@@ -8,7 +8,7 @@ export const experienceSection: ExperienceSectionType = {
       companyUrl: 'https://www.houseofweb3.com/',
       role: 'Software Developer I',
       started: 'July 2024',
-      upto: 'Present',
+      upto: 'August 2024',
       tasks: [
         'Engineered and optimized the back-end for an Airdrop web application using Next.js and a RESTful API, improving performance and responsiveness.',
         'Refactored algorithms and designed scalable APIs to enhance processing speed and reduce server load.',
