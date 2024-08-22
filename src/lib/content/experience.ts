@@ -10,7 +10,7 @@ export const experienceSection: ExperienceSectionType = {
       started: 'March 2024',
       upto: 'June 2024',
       tasks: [
-        'Engineered and optimized back-ends for both an Airdrop web application and a crypto influencer platform using Next.js, TypeScript, and RESTful APIs, boosting performance and user engagement.',
+        'Engineered and optimized back-ends for both an Airdrop web application and a crypto influencer platform using TypeScript, and RESTful APIs, boosting performance and user engagement.',
         'Refactored algorithms and designed scalable APIs, reducing server load and improving processing speeds across applications.',
         'Automated data extraction from 10 websites and developed a notification system using Python and FastAPI, enhancing processing speed by 40%.',
         'Integrated the notification system with Wati for WhatsApp API, significantly improving customer engagement.',
