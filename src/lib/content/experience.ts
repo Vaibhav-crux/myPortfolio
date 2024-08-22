@@ -6,26 +6,15 @@ export const experienceSection: ExperienceSectionType = {
     {
       company: 'House of Web3',
       companyUrl: 'https://www.houseofweb3.com/',
-      role: 'Software Developer I',
-      started: 'July 2024',
-      upto: 'August 2024',
-      tasks: [
-        'Engineered and optimized the back-end for an Airdrop web application using Next.js and a RESTful API, improving performance and responsiveness.',
-        'Refactored algorithms and designed scalable APIs to enhance processing speed and reduce server load.',
-        'Automated data extraction from 10 websites using Python and Beautiful Soup, increasing processing speed by 40%.',
-        'Developed a system for extracting data from PDF and DOC files, generating MCQs and summaries using OpenAI API and Gemini API.',
-      ],
-    },
-    {
-      company: 'House of Web3',
-      companyUrl: 'https://www.houseofweb3.com/',
       role: 'Back-end Developer Intern',
       started: 'March 2024',
       upto: 'June 2024',
       tasks: [
-        'Created a back-end for a crypto exchange platform, enabling seamless transactions using MetaMask and implementing a RESTful API with TypeScript.',
-        'Developed and automated a notification system using Python and the FastAPI framework, integrated with Wati for WhatsApp API, improving customer engagement.',
-        'Enhanced resource allocation for AI image generation pipeline with TensorFlow, cutting processing time by 30% and improving output quality.',
+        'Engineered and optimized back-ends for both an Airdrop web application and a crypto influencer platform using Next.js, TypeScript, and RESTful APIs, boosting performance and user engagement.',
+        'Refactored algorithms and designed scalable APIs, reducing server load and improving processing speeds across applications.',
+        'Automated data extraction from 10 websites and developed a notification system using Python and FastAPI, enhancing processing speed by 40%.',
+        'Integrated the notification system with Wati for WhatsApp API, significantly improving customer engagement.',
+        'Enhanced AI image generation pipeline with TensorFlow, cutting processing time by 30% and improving output quality.'
       ],
     },
     {
@@ -59,9 +48,9 @@ export const experienceSection: ExperienceSectionType = {
       started: 'July 2023',
       upto: 'August 2023',
       tasks: [
-        'Improved the efficiency, reliability, security, user-friendliness, and overall functionality of the software by 50%.',
-        'Managed the GUI, database, hardware, server, and cloud aspects, leading to a 60% improvement in loading speed.',
-        'Employed Python and Streamlit for development and PostgreSQL for database management, demonstrating skills in logic implementation, Docker use, and management of GCP resources.',
+        'Enhanced software efficiency, reliability, security, and user experience by 50%, significantly improving overall functionality.',
+        'Optimized GUI, database, hardware, server, and cloud components, achieving a 60% increase in loading speed.',
+        'Utilized Python and PostgreSQL for robust database management, showcasing expertise in logic implementation, Docker, and GCP resource management.',
       ],
     },
   ],
