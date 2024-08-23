@@ -7,6 +7,7 @@ import Link from './buttons/Link';
 import ListItem from './lists/ListItem';
 import NavButton from './buttons/NavButton';
 import ProjectCard from './ui/ProjectCard';
+import Education from './ui/Education';  // Importing the Education component
 import References from './ui/References';
 import ShowLottie from './ui/ShowLottie';
 import Sidebar from './ui/Sidebar';
@@ -26,6 +27,7 @@ export {
   ListItem,
   NavButton,
   ProjectCard,
+  Education,  // Adding Education to the export list above References
   References,
   ShowLottie,
   Sidebar,

@@ -50,3 +50,10 @@ export type Direction = 'up' | 'right' | 'down' | 'left';
 export type SoftwareSkillType = { name: string; icon: string };
 
 export type BreakpointType = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl';
+
+export interface EducationType {
+  institution: string;
+  degree: string;
+  date: string;
+  highlights: string[];
+}

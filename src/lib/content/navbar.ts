@@ -7,6 +7,7 @@ export const navbarSection: NavbarSectionType = {
     { name: 'skills', url: '/#skills' },
     { name: 'experience', url: '/#experience' },
     { name: 'projects', url: '/#projects' },
+    {name: 'education', url: '/#education'},
     { name: 'References', url: '/#references' },
     { name: 'contact', url: '/#contact' },
   ],
