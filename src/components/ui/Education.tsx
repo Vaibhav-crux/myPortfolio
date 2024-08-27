@@ -38,7 +38,7 @@ const Education = () => {
               {edu.institution}
             </h3>
             <p className="relative z-10" style={{ color: 'var(--color-dark-2)' }}>
-              {edu.degree} (Completed: {edu.date})
+              {edu.degree} <br /> {edu.date}
             </p>
             <ul className="text-left list-disc list-inside relative z-10">
               {edu.highlights.map((highlight, idx) => (
@@ -48,7 +48,7 @@ const Education = () => {
               ))}
             </ul>
           </motion.div>
-        ))}6
+        ))}
       </div>
     </section>
   );

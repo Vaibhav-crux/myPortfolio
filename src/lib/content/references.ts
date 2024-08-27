@@ -17,7 +17,7 @@ export const references: Reference[] = [
   },
   {
     image: '/references/raghvendra.png',
-    quote: "Vaibhav is more than just a colleague; he's the kind of team player every manager dreams of having. His readiness to lend a hand and share his extensive knowledge makes him a standout in any project. Vaibhav's proactive approach and strong problem-solving abilities contribute greatly to the success of any initiative. His presence on the team is not just valuable; it's indispensable.",
+    quote: "I've had the pleasure of interacting with Vaibhav, and I can confidently attest to his exceptional understanding skills. He demonstrates a keen ability to grasp complex concepts and break them down into actionable insights. His proficiency in SQL and Python is impressive, and his skills in creating Python-based GUI applications are noteworthy. I'm confident that Vaibhav will continue to excel in his pursuits and make valuable contributions to the tech community.",
     name: 'Raghvendra Bhagat',
     profession: 'CTO, Darshil IT',
     email: 'raghvendrabhagat@gamil.com',

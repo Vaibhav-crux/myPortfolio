@@ -19,7 +19,7 @@ export const author = {
 };
 
 export const seoData = {
-  title: 'Vaibhav Tiwari | Full-Stack Developer',
+  title: 'Vaibhav Tiwari | Digital Solutions Architect & Creative Technologist',
   description:
     "Vaibhav Tiwari is a full-stack developer with a passion for building scalable and efficient web applications, specializing in both front-end and back-end development.",
   author: author.name,
@@ -28,7 +28,7 @@ export const seoData = {
   url: 'https://yourportfolio.vercel.app/', // Replace with your actual portfolio URL
   keywords: [
     'Vaibhav Tiwari',
-    'Full-Stack Developer',
+    'Backend Developer',
     '@vaibhav-crux',
     'Vaibhav-crux',
     'Portfolio',

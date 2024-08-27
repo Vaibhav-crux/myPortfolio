@@ -23,13 +23,13 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Vaibhav Tiwari, a recent B.Tech graduate in Computer Science. I'm a dedicated Full-Stack developer with a strong focus on backend development and software engineering. My passion lies in building efficient, scalable web applications and continuously exploring new technologies to enhance my skills.
+            Hi, my name is Vaibhav Tiwari, a recent B.Tech graduate in Computer Science. I'm a dedicated developer with a strong focus on backend development and software engineering. My passion lies in building efficient, scalable web applications, as well as developing software solutions for both Windows and Mac environments, and continuously exploring new technologies to enhance my skills.
           </p>
           <p>
-            Throughout my journey, I've gained valuable experience in backend development, creating robust systems and APIs, and implementing cloud infrastructure solutions. My expertise includes developing high-performance applications that solve real-world problems and meet the demands of modern web environments.
+            Throughout my journey, I've gained valuable experience in backend development, creating robust systems and APIs, and implementing cloud infrastructure solutions. My work involves developing high-performance applications that address real-world challenges and meet the demands of modern web environments.
           </p>
           <p>
-            Currently, I'm committed to advancing my knowledge in backend technologies and cloud computing, with a keen interest in contributing to innovative projects in the tech industry.
+            Currently, I'm committed to advancing my knowledge in backend technologies, software engineering for cross-platform applications, and cloud computing, with a keen interest in contributing to innovative and impactful projects in the tech industry.
           </p>
 
           {list && (

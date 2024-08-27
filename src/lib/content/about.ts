@@ -12,7 +12,6 @@ export const aboutSection: AboutSectionType = {
       'Python',
 
       // Front-End Technologies
-      'Next.js',
       'TypeScript',
 
       // Cloud and DevOps
@@ -27,7 +26,6 @@ export const aboutSection: AboutSectionType = {
 
       // Data Processing and Web Scraping
       'Beautiful Soup',
-      'Web Scraping',
     ],
   },
   img: '/my-image.png',
