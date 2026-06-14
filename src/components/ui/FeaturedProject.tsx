@@ -29,6 +29,7 @@ const FeaturedProject = ({
           'relative hidden lg:block  min-h-[280px] sm:min-h-[360px] h-full overflow-hidden lg:overflow-visible rounded-lg lg:rounded-xl shadow-lg lg:shadow-none text-center lg:text-right',
           align === 'left' && 'lg:text-left'
         )}
+        suppressHydrationWarning
         {...rest}
       >
         <div
@@ -137,6 +138,7 @@ const FeaturedProject = ({
         className={cn(
           'relative lg:hidden min-h-[300px] h-full rounded-xl shadow-lg lg:shadow-none text-center'
         )}
+        suppressHydrationWarning
         {...rest}
       >
         {/* Image Header */}

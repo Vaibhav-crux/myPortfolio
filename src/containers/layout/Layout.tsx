@@ -1,3 +1,5 @@
+"use client";
+
 import { Email, Footer, Navbar, Social } from '@/containers';
 
 type Props = {
