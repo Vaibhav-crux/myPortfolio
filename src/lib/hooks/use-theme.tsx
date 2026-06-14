@@ -27,12 +27,8 @@ export default function ThemeProvider({
 }: {
   children: React.ReactNode;
 }) {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(
-    typeof window !== 'undefined' &&
-      JSON.parse(localStorage.getItem('darkMode') || 'true')
-      ? true
-      : false
-  );
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
+  const [mounted, setMounted] = useState(false);
 
   const toggle = useCallback(() => {
     setIsDarkMode((prev) => !prev);
@@ -46,13 +42,22 @@ export default function ThemeProvider({
     setIsDarkMode(false);
   }, []);
 
+  // Load theme from localStorage on mount
   useEffect(() => {
-    localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
+    const isDark =
+      JSON.parse(localStorage.getItem('darkMode') || 'true') === true;
+    setIsDarkMode(isDark);
+    setMounted(true);
+  }, []);
+
+  // Apply theme to DOM whenever it changes
+  useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add('dark');
     } else {
       document.documentElement.classList.remove('dark');
     }
+    localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
   }, [isDarkMode]);
 
   return (

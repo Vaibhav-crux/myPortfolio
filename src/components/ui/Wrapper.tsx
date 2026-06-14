@@ -21,7 +21,12 @@ const Wrapper = ({
     const MotionTag = motion(as);
 
     return (
-      <MotionTag id={id} className={`py-24 md:py-32 ${className}`} {...rest}>
+      <MotionTag
+        id={id}
+        className={`py-24 md:py-32 ${className}`}
+        suppressHydrationWarning
+        {...rest}
+      >
         {children}
       </MotionTag>
     );
@@ -32,6 +37,7 @@ const Wrapper = ({
       <motion.section
         id={id}
         className={`py-24 md:py-32 ${className}`}
+        suppressHydrationWarning
         {...rest}
       >
         {children}
